@@ -1,12 +1,15 @@
 .navbox{
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+.nav{
   height: 80px;
   margin-top: 10px;
   backdrop-filter: blur(100px);
   border-radius: 20px;
-  
 }
+
 .background{
   background-image: url(../public/assets/background1.jpeg);
   background-size: 100%;
@@ -14,11 +17,31 @@
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
   display: flex;
-  align-items:self-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 150px;
+}
+.text{
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-   
+  align-items: center;
+
+  
+}
+.main-text{
+  font-size: 20px;
+  color: white;
+}
+.sub-text{
+  font-size: 45px;
+  color: white;
+
 }
 nav{
   border-radius: 20px;
   width: auto;
+}
+img{
+  width: 50px;
 }
